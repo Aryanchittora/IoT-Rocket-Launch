@@ -1,0 +1,14 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/frontpage.css') }}" />
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    </head>
+    <body>
+      <div id="videoBC">
+        <video id="videoBG" width="100%" height="100%" controls autoplay muted loop>
+          <source src="{{ url_for('static', filename='../static/Rocket_4.mp4') }}" type="video/mp4" sizes="covers">
+        </video>
+      </div>
+    </body>
+  </html>
